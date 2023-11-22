@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Angkor', cursive;;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;
+}
+
+h1 {
+    position: absolute;
+    left: 37%;
+    margin: 1rem;
+    padding: 4px;
+    font-size: 35px;
+    border-radius: 4px;
+    background-image: linear-gradient(to left , deeppink , pink);
+}
+
+.Calculator {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    width: 400px;
+    height: 500px;
+    background-color: #0f172a;
+    border: 2px solid deeppink;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 15px deeppink;
+}
+
+#display {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin: 8px;
+    width: 90%;
+    height: 3rem;
+    padding: 6px;
+    border: 3px solid deeppink;
+    border-radius: 5px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.rowone {
+  position: absolute;
+    top: 5rem;
+    left: 2rem;
+
+}
+
+.clearall , .clear , .remainder , .divide {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 13px deeppink;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rowtwo {
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+}
+
+.numberseven , .numbereight , .numbernine , .multiply {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 13px deeppink;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.rowthree {
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+}
+
+.numberfour , .numberfive , .numbersix , .add {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 13px deeppink;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rowfour {
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+}
+
+.numberone , .numbertwo , .numberthree , .subtract {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 13px deeppink;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rowfive {
+    position: absolute;
+    top: 25rem;
+    left: 2rem;
+}
+
+.doublezero , .zero , .point , .equal {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 13px deeppink;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.equal {
+    background-color: orange;
+    color: white;
+}
+
+.remainder , .divide , .multiply , .add , .subtract ,.clearall , .clear {
+    color: green;
+}
